@@ -4,3 +4,5 @@ from django.http import HttpResponseRedirect
 from .models import Guest, Table, Booking
 
 
+def index(request):
+    return HttpResponseRedirect("hello")
